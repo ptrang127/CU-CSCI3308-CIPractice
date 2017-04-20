@@ -1,0 +1,5 @@
+language: c
+install: make dep
+compiler: clang
+script: make clean && make && make test
+
